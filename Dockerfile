@@ -4,7 +4,7 @@ FROM tomcat:9.0
 COPY Energizer.war /usr/local/tomcat/webapps/Energizer.war
 
 # Đặt cổng dựa trên biến môi trường (do Railway cung cấp)
-ENV PORT 8080
+ENV PORT 8443
 
 # Chạy Tomcat
 CMD ["catalina.sh", "run"]
