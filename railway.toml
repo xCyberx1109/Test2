@@ -1,6 +1,0 @@
-[build]
-builder = "Docker"
-
-[deploy]
-startCommand = "catalina.sh run"
-port = 8080
